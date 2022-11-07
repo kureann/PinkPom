@@ -1,0 +1,49 @@
+body {
+    background: pink;
+    font-family: Kanit, bold;
+}
+
+.heading {
+    color: black;
+}
+
+.row {
+    width: 100%;
+}
+
+.timer {
+    color: black;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid black;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play,
+.replay {
+    color: rgb(0, 0, 0);
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+
+.play:hover,
+.replay:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    transition: 0.3s ease; 
+}
+
+.show_message {
+    display: block;
+    padding: 1rem 0;
+    color: black;
+    background: pink;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+}
